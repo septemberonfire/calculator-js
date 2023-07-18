@@ -4,4 +4,4 @@ Hi there. Here's my first calculator. I used
 - CSS;
 - JavaScript.
 
-  You can view it (here) [https://septemberonfire.github.io/calculator-js/]
+  You can view it [here](https://septemberonfire.github.io/calculator-js/)
