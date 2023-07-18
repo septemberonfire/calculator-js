@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common-styles.css">
+  <link rel="stylesheet" href="./css/light-theme.css" id="theme">
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="theme-toggler" id="switchMode">
+        <i class="toggler-icon"></i>
+      </div>
+
+        <div id="display" class="diplay">
+          <input type="text" id="display-screen" placeholder="0" readonly>
+        </div>
+
+      <div class="row buttons">
+        <button class="btn-operator btn-calculate">x²</button>
+        <button class="btn-operator btn">(</button>
+        <button class="btn-operator btn">)</button>
+        <button class="btn-clearall btn" id="clear">AC</button>
+        <button class="btn-clear btn" id="clear">C</button>
+      </div>
+      <div class="row buttons">
+        <button class="btn-operator btn-calculate">√</button>
+        <button class="btn-number btn">7</button>
+        <button class="btn-number btn">8</button>
+        <button class="btn-number btn">9</button>
+        <button class="btn-operator btn">÷</button>
+      </div>
+      <div class="row buttons">
+        <button class="btn-operator btn-calculate">sin</button>
+        <button class="btn btn-number">4</button>
+        <button class="btn btn-number">5</button>
+        <button class="btn btn-number">6</button>
+        <button class="btn btn-operator">x</button>
+      </div>
+      <div class="row buttons">
+        <button class="btn-operator btn-calculate">cos</button>
+        <button class="btn-number btn">1</button>
+        <button class="btn-number btn">2</button>
+        <button class="btn-number btn">3</button>
+        <button class="btn-operator btn">-</button>
+      </div>
+      <div class="row buttons">
+        <button class="btn-operator btn-calculate">tan</button>
+        <button class="btn-number btn">0</button>
+        <button class="btn-number btn">.</button>
+        <button class="btn-equal btn" id="equal">=</button>
+        <button class="btn-operator btn">+</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
